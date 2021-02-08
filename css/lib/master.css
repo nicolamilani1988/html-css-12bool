@@ -18,7 +18,7 @@
 }
 
 [class*="col-"]{
-  height: 200px;
+  min-height: 200px;
   float: left;
   border: 1px solid black;
   text-align: center;
@@ -75,9 +75,7 @@
 }
 
 
-
 /* regole distanziamento colonne */
-/* regole dimensionamento colonne */
 .col-offset-1{
   margin-left: calc((100% / 12) * 1);
 }
